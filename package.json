@@ -1,0 +1,20 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "Node.js Web Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Thewealth_Dev",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "uuid": "^9.0.0"
+  },
+  
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
